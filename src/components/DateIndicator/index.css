@@ -1,0 +1,21 @@
+
+.hcc {
+  scrollbar-width: auto;
+  scrollbar-color: blue;
+}
+
+/* Chrome, Edge, and Safari */
+.hcc::-webkit-scrollbar {
+  height: 5px;
+}
+
+.hcc::-webkit-scrollbar-track {
+  background: rgb(215, 215, 215);
+  border-radius: 5px;
+}
+
+.hcc::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 48, 48);
+  border-radius: 14px;
+  width: 1px;
+}

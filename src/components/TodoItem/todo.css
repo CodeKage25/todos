@@ -1,0 +1,34 @@
+.todo:checked {
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #3F5BF6;
+}
+
+.todo:before {
+  content: "";
+  display: block;
+  transition: transform 200ms;
+}
+.todo:checked::before {
+  width: 7px;
+  height: 9px;
+  margin: 0px 4px;
+  border-bottom: 2px solid #3F5BF6;
+  border-right: 2px solid #3F5BF6;
+  transform: rotate(45deg);
+}
+.todo {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 0.15em;
+  margin-right: 0.5em;
+  border: 1px solid #D0D5DD;
+  outline: none;
+  cursor: pointer;
+}

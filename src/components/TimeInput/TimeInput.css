@@ -1,0 +1,6 @@
+.react-time-picker__wrapper {
+    border: none;
+  }
+  .react-time-picker__inputGroup{
+      min-width: min-content;
+  }
